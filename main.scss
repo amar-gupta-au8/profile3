@@ -55,7 +55,7 @@ header{
 
 // landing Section
 .land-sec{
-    height: 50vh;
+    height: 60vh;
     background: #1ABC9C;
     color: #fff;
     .land-img img{
@@ -66,8 +66,16 @@ header{
   
   
   .port-sec{
-    height: 50vh;
+    height: 100%;
     background: #f3f3f3;
+    .img-port img {
+        
+        margin: 1rem;
+    }
+    .port-img{
+        
+        border-radius: 1rem;
+    }
   }
   
   .about-sec{
