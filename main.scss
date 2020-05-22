@@ -79,13 +79,28 @@ header{
   }
   
   .about-sec{
-    height: 50vh;
+    height: 100%;
     background: #1ABC9C;
+    p{
+        padding: 1rem;
+    }
   }
   .contact-sec{
-    height: 50vh;
+    height: 100%;
     background: #f3f3f3;
   }
-  
+ .con{
+    text-align: center;
+    img{
+        border-radius: 1rem;
+        background: #1ABC9C;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        color: #157AF6;
+        font-size: 25px;
+        
+    }
+ }
   
   
