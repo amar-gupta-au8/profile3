@@ -3,86 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Assignment Week3Day5</title>
+    <title>PORTFOLIO</title>
+    
+    <!-- bootstrap link -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
+    
+    <!-- Font Link -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
-    <style>
-      body{
-        font-family: 'Montserrat', sans-serif;
-      }
-      *{
-        text-align: 40px;
-        align-items: center;
-      }
-      header{
-        padding: 1rem;
-        background-color: #2B3E50;
-      }
-     .header{
-      /* background-color: #2B3E50; */
-      color: #fff;
-      }
-      .left-head{
-        margin-left:22px;
-      }
-      .right-head{
-        margin-right: 40px;
-      }
-      .ul-right{
-        list-style: none;
-        margin: 16px;
-        
-        
-      }
-      .ul-right li{
-        margin: 0 4px;
-
-      }
-      .ul-right li a{
-        color: #fff;
-        text-decoration: none;
-      }
-      /* container */
-      .land-sec{
-        height: 50vh;
-        background: #1ABC9C;
-        color: #fff;
-      }
-      .port-sec{
-        height: 50vh;
-        background: #f3f3f3;
-      }
-      
-      .about-sec{
-        height: 50vh;
-        background: #1ABC9C;
-      }
-      .contact-sec{
-        height: 50vh;
-        background: #f3f3f3;
-      }
-      .land-img img{
-        height: 20vh;
-        margin: 5vh;
-      }
-      .land-head{
-        font-weight:700;
-        font-size: 3rem;
-        margin-bottom: -15px;
-      }
-    </style>
-    
-    
     
     
     <link rel="stylesheet" href="main.css">
   </head>
   <body>
+    
    <header class="container-fluid">
     <div class="header row justify-content-between">
       <div class="left-head">
@@ -90,29 +28,30 @@
       </div>
       <div class="right-head">
         <ul class="row ul-right">
-          <li ><a href="">PORTFOLIO</a></li>
-          <li><a href="">ABOUT</a></li>
-          <li><a href="">CONTACT</a></li>
+          <li ><a href="#portfolio">PORTFOLIO</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#contact">CONTACT</a></li>
         </ul>
       </div>
     </div>
    </header>
    
-   <section class="container-fluid land-sec">
+   <section class="container-fluid land-sec" >
     <div class="row flex-column">
      <div class="land-img">
        <img src="images/my.png" alt="">
      </div> 
      
-     <div class="land-head">
+     <div class="bd-head">
        <p>Amar Gupta</p>
      </div>
      
-      <div class="star-line row">
-        <div class="lineIn"><p>__________&nbsp;&nbsp;</p></div>
+      <div class="star-head row">
+        <div class="line"><p>_______&nbsp;&nbsp;</p></div>
         <div class="star-1">&#9733;</div>
-        <div class="lineIn"><p>&nbsp;&nbsp;__________</p></div>
+        <div class="line"><p>&nbsp;&nbsp;_______</p></div>
       </div>
+      
       <div class="land-p">
         <p>I love to code</p>
       </div>
@@ -122,16 +61,16 @@
    </section>
    
    <!-- portfolio section -->
-    <section class="container-fluid port-sec ">
+    <section class="container-fluid port-sec" id="portfolio">
       <div class="row flex-column">
-      <div class="head-port">
-        <h1>Portfolio</h1>
+      <div class="lbd-head">
+        <p>PORTFOLIO</p>
       </div>
       
-      <div class="star-line row">
-        <div class="lineIn"><p>__________&nbsp;&nbsp;</p></div>
+      <div class="star row">
+        <div class="line"><p>_______&nbsp;&nbsp;</p></div>
         <div class="star-1">&#9733;</div>
-        <div class="lineIn"><p>&nbsp;&nbsp;__________</p></div>
+        <div class="line"><p>&nbsp;&nbsp;_______</p></div>
       </div>
       
       <div class="img-port .flex-wrap">
@@ -145,12 +84,20 @@
       
     </div>
     </section>
+    
     <!-- About me Section -->
-    <section class="container-fluid about-sec">
+    <section class="container-fluid about-sec" id="about">
       <div class="row flex-column">
-      <div class="about">
-        <h2>About</h2>
+      <div class="lbd-head">
+        <p>ABOUT</p>
       </div>
+      
+      <div class="star row">
+        <div class="line"><p>_______&nbsp;&nbsp;</p></div>
+        <div class="star-1">&#9733;</div>
+        <div class="line"><p>&nbsp;&nbsp;_______</p></div>
+      </div>
+      
       <div class="about-para">
         <div class="para">
           <p>adssda</p>
@@ -163,11 +110,18 @@
     </div>
     </section>
     <!-- Contact section -->
-    <section class="container-fluid contact-sec">
+    <section class="container-fluid contact-sec" id="contact">
       <div class="row flex-column">
-      <div class="contact">
-        <h1>Contact</h1>
+      <div class="lbd-head">
+        <p>Contact</p>
       </div>
+      
+      <div class="star row">
+        <div class="line"><p>_______&nbsp;&nbsp;</p></div>
+        <div class="star-1">&#9733;</div>
+        <div class="line"><p>&nbsp;&nbsp;_______</p></div>
+      </div>
+      
       <div class="con-detail">
         <div class="phone">
           <p>adssda</p>

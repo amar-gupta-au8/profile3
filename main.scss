@@ -1,0 +1,83 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+  }
+  *{
+    text-align: 40px;
+    align-items: center;
+  }
+// utility-Section
+.bd-head{
+    font-weight:600;
+    font-size: 3rem;
+    margin-bottom: -15px;
+  }
+.lbd-head{
+    font-weight:600;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    
+  }
+.line{
+    font-size: 1.5rem;
+    font-weight:600;
+}
+.star{
+    margin-top:-2rem;
+}
+header{
+    padding: 1rem;
+    background-color: #2B3E50;
+    .header{
+        /* background-color: #2B3E50; */
+        color: #fff;
+    }
+        .left-head{
+        margin-left:22px;
+    }
+    .right-head{
+        margin-right: 40px;
+    }
+    .ul-right{
+    list-style: none;
+    margin: 16px;
+          
+          
+    }
+    .ul-right li{
+    margin: 0 4px;
+      
+    }
+    .ul-right li a{
+    color: #fff;
+    text-decoration: none;
+    }
+}
+
+// landing Section
+.land-sec{
+    height: 50vh;
+    background: #1ABC9C;
+    color: #fff;
+    .land-img img{
+        height: 20vh;
+        margin: 5vh;
+      }
+  }
+  
+  
+  .port-sec{
+    height: 50vh;
+    background: #f3f3f3;
+  }
+  
+  .about-sec{
+    height: 50vh;
+    background: #1ABC9C;
+  }
+  .contact-sec{
+    height: 50vh;
+    background: #f3f3f3;
+  }
+  
+  
+  
