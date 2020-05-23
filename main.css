@@ -99,12 +99,12 @@ header .ul-right li a {
   background: #f3f3f3;
 }
 
-.port-sec .img-port img {
-  margin: 1rem;
+.port-sec .row1 {
+  margin-left: 25px;
 }
 
-.port-sec .port-img {
-  border-radius: 1rem;
+.port-sec img {
+  width: 40vh;
 }
 
 .about-sec {

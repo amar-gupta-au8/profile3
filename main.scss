@@ -86,15 +86,14 @@ header{
   .port-sec{
     height: 100%;
     background: #f3f3f3;
-    .img-port img {
-        
-        margin: 1rem;
+    .row1{
+     margin-left: 25px;   
     }
-    .port-img{
-        
-        border-radius: 1rem;
+    img{
+        width:40vh;
+        }
     }
-  }
+  
   
   .about-sec{
     height: 100%;
@@ -171,4 +170,4 @@ header{
     }
     
 }
-  
+
