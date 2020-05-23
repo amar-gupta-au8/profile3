@@ -189,11 +189,34 @@ footer {
   }
 }
 
+.side-img {
+  text-align: center;
+}
+
 .side-img img {
   height: 40vh;
 }
 
 .head-side {
   font-size: 2rem;
+}
+
+.paragraph {
+  font-size: 1rem;
+  margin-top: 2rem;
+  margin: 1rem;
+}
+
+.button-side {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  background: #1ABC9C;
+  padding: 0.5rem;
+}
+
+.button-side a {
+  text-decoration: none;
+  background: #1ABC9C;
+  color: #fff;
 }
 /*# sourceMappingURL=main.css.map */
