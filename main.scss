@@ -27,6 +27,24 @@ body{
 header{
     padding: 1rem;
     background-color: #2B3E50;
+    color: #fff !important;
+    .navi{
+        background: #2B3E50;
+        color: #fff !important;
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-decoration: none;
+        li a {
+            color: #fff;
+        
+        }
+        .white{
+            color: #fff;
+        }
+    }
+    nav a{
+        color: #fff;
+    }
     .header{
         /* background-color: #2B3E50; */
         color: #fff;
@@ -81,6 +99,7 @@ header{
   .about-sec{
     height: 100%;
     background: #1ABC9C;
+    color: #fff;
     p{
         padding: 1rem;
     }
@@ -88,19 +107,68 @@ header{
   .contact-sec{
     height: 100%;
     background: #f3f3f3;
-  }
- .con{
-    text-align: center;
-    img{
-        border-radius: 1rem;
-        background: #1ABC9C;
-        border-radius: 50%;
-        width: 40px;
-        height: 40px;
-        color: #157AF6;
-        font-size: 25px;
+    .con{
+        text-align: center;
+        height:100%;
+        min-height: 30vh;
+        max-height: 40vh;
         
-    }
+        i{
+            text-align: center;
+            background: #1ABC9C;
+            color: #fff;
+            height:6vh;
+            width: 6vh;
+            font-size: 1.5rem;
+            border-radius: 50%;
+            padding-top: 8px;
+        }
+     }
+  }
+ .location-section{
+     background:#2B3E50;
+     
+        height: 60vh;
+     color: white;
+     text-align: center;
+     padding-bottom: 2rem;
+    
+     
+     .location, .around, .about-attainu{
+        margin:1rem;
+     }
+     a{
+        color: white;
+        text-decoration: none;
+     }
+     li{
+         margin: 10px;
+         list-style: none;
+         a{
+         color: white;}
+     }
  }
-  
+ 
+ footer{
+     background:#333;
+     height : 100%;
+     color: #fff;
+     text-align: center;
+     padding-top: 5px;
+ }
+@media (max-width:500px){
+    .hide{
+        display: none;
+    }
+}
+@media (min-width:500px){
+    
+    .show{
+        display: none;
+    }
+    .show-contact{
+        display: none;
+    }
+    
+}
   
